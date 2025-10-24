@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     // AppConfig는 애플리케이션의 실제 동작에 필요한 구현 객체를 생성함
-    @Bean // 스피링 컨테이너에 등록 됨
+    @Bean // 스프링 컨테이너에 등록 됨
     public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
     }
