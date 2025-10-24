@@ -12,7 +12,7 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration // Bean의 싱글톤을 보장해주는 annotation
 public class AppConfig {
 
     // AppConfig는 애플리케이션의 실제 동작에 필요한 구현 객체를 생성함
